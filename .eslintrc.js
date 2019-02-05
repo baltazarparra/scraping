@@ -1,16 +1,18 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "amd": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2015
     },
     "rules": {
+        "no-console": "off",
         "indent": [
             "error",
-            "tab"
+            2
         ],
         "linebreak-style": [
             "error",
