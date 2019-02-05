@@ -1,0 +1,23 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "Estudando extração de dados com NodeJs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baltazarparra/scraping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baltazarparra/scraping/issues"
+  },
+  "homepage": "https://github.com/baltazarparra/scraping#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
