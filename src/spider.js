@@ -11,7 +11,7 @@ request('https://www.imdb.com/chart/moviemeter', (err, res, body) => {
     const title = $(this).find('.titleColumn a').text().trim()
     const rating = $(this).find('.imdbRating strong').text().trim()
 
-    fs.appendFile('imdb.text', `${title}, ${rating} '\n'`, (error) => {
+    fs.appendFile('imdb.text', `${title}, ${rating} \n`, (error) => {
       if (error) console.log(error)
     })
   })
